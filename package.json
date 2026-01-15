@@ -1,4 +1,5 @@
-{
+{ 
+  "deploy": "gh-pages -d dist/public",
   "name": "portfolio-devops",
   "version": "1.0.0",
   "type": "module",
@@ -9,7 +10,8 @@
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "deploy": "gh-pages -d dist/public"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
