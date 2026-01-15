@@ -88,7 +88,7 @@ export default function Home() {
                 <img
                   src={`${base}images/profile.jpg`}
                   alt="Jocelyn RAKOTOMALALA"
-                  className="w-full h-full object-cover object-[50%_35%] rounded-2xl shadow-2xl border-4 border-orange-600"
+                  className="w-full h-full object-cover object-[40%_35%] rounded-2xl shadow-2xl border-4 border-orange-600"
                 />
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>
